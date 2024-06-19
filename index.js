@@ -41,7 +41,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Configure CORS to allow requests from your Netlify subdomain
-const allowedOrigins = ['https://reviews.saumic.com'];
+const allowedOrigins = ['https://review.saumic.com'];
 
 const corsOptions = {
   origin: function (origin, callback) {
